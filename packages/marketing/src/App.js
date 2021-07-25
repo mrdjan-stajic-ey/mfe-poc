@@ -10,6 +10,7 @@ export default () => {
     return (
         <>
             <StylesProvider>
+                <h2>Dos</h2>
                 <Router>
                     <Switch>
                         <Route exact path="/pricing" component={Pricing} />
