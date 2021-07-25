@@ -12,6 +12,7 @@ export default () => {
             <StylesProvider>
                 <Router>
                     <Switch>
+                        <p>Marketing</p>
                         <Route exact path="/pricing" component={Pricing} />
                         <Route path="/" component={Landing} />
                     </Switch>
